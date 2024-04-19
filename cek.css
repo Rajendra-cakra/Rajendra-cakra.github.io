@@ -1,0 +1,12 @@
+html {
+  height: 100rem;
+}
+.wrapper {
+  overflow-y: auto;
+  margin-top: 5rem;
+  margin-left: 40%;
+}
+
+.wrapper .item {
+  height: 250px;
+}
