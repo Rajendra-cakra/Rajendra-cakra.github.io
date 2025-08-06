@@ -181,7 +181,7 @@ body {
 }
 
 .about .row .content {
-  flex: 1 1 35rem;
+  flex: 1 1 45rem;
   padding: 0 1rem;
 }
 
@@ -329,6 +329,124 @@ body {
   color: #fff;
   display: flex;
 }
+
+
+
+
+/* Contact Section kedua*/
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: var(--bg);
+}
+
+.contact .row form .input-group {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--bg);
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+.contact .row form .input-group input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.7rem;
+  background: none;
+  color: #fff;
+  align-items: center;
+}
+.contact .row form .input-group select {
+  width: 1000%;
+  padding: 1rem;
+  font-size: 1.7rem;
+  background: none;
+  color: #fff;
+  align-items: center;
+}
+.contact .row form .input-group option {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.7rem;
+  background: none;
+  color: #1f1d1d;
+  align-items: center;
+}
+
+.contact .row form .Send {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 1rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background-color: var(--primary);
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.contact .row form .Send:hover {
+  cursor: pointer;
+  background-color: #513c28;
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+}
+
+.contact .row el {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh;
+}
+
+.lu-navbar {
+  list-style-type: inherit;
+  font-size: 2rem;
+  padding: 0px;
+  margin: 2px;
+  color: #fff;
+  display: flex;
+  display: block;
+  padding-bottom: 0rem;
+  padding-top: 0rem;
+  border-bottom: 0.1rem solid var(--primary);
+  border-radius: 1rem;
+}
+
+.lu-navbar a {
+  color: var(--primary);
+}
+
+.lu-navbar a:hover {
+  cursor: pointer;
+  color: #513c28;
+}
+
+.al-navbar {
+  height: 0vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0vh;
+}
+
+.lo-bar a {
+  list-style-type: inherit;
+  font-size: 1rem;
+  padding: 5px;
+  margin: 2px;
+  color: #fff;
+  display: flex;
+}
+
 
 /* Footer */
 footer {
